@@ -97,4 +97,4 @@ jobs:
         mvn deploy -DmuleDeploy -Ddeployment.name="greetings-th31052022a" \
         -Dusername=${{ secrets.ANYPOINT_USERNAME }} \
         -Dpassword=${{ secrets.ANYPOINT_PASSWORD }} \
-        -Dmessage= " Tricia you are great"
+        -Dmessage="Tricia you are great"
