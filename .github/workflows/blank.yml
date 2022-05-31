@@ -94,6 +94,6 @@ jobs:
         AUTHOR: "TRICIA HAMMANN"
       run: |
         artifactName=$(ls *.jar | head -1)
-        mvn deploy -DmuleDeploy -Ddeployment.name="greetings-th31052022" \ 
+        mvn deploy -DmuleDeploy -Ddeployment.name="greetings-th31052022" \
         -Dusername=${{ secrets.ANYPOINT_USERNAME }} \
-        -Dpassword=${{ secrets.ANYPOINT_PASSWORD }}
+        -Dpassword=${{ secrets.ANYPOINT_PASSWORD }} 
